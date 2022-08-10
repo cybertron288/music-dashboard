@@ -1,13 +1,17 @@
 
-import Dashboard from "./Pages/Dashboard";
+import Main from "./Pages/Main";
 import { ThemeProvider } from "@mui/material/styles"
 import theme from "./Theme/Theme"
+import './App.css'
+import { AppContextProvider } from "./context/appContextProvider"
 
 function App() {
   return (
     <>
     <ThemeProvider theme={theme}>
-      <Dashboard />
+    <AppContextProvider>
+      <Main />
+      </AppContextProvider>
       </ThemeProvider>
     </>
   );

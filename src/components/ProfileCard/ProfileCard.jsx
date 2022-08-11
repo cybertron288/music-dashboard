@@ -1,5 +1,4 @@
 import React from "react"
-import { useTheme } from "@mui/material/styles"
 import Box from "@mui/material/Box"
 import Card from "@mui/material/Card"
 
@@ -10,7 +9,7 @@ import Typography from "@mui/material/Typography"
 import { Avatar, Button, Grid, Stack } from "@mui/material"
 
 const ProfileCard = () => {
-  const theme = useTheme()
+
 
   return (
     <Card

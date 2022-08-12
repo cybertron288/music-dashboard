@@ -1,5 +1,5 @@
 .MuiButton-root{
-font-weight: 800;
-padding: 10px 0;
-  border-radius: 20px;
+font-weight: 700 !important;
+padding: 10px 0 !important;
+  border-radius: 20px !important;
 }

@@ -3,6 +3,7 @@ import React from "react"
 import Grid from "@mui/material/Grid"
 import ProfileCard from "../../components/ProfileCard/ProfileCard"
 import SimpleAreaChart from "../../components/AreaChart/AreaChart"
+import PieChartLayout from "../../components/PieChart/PieChart"
 import Layout21 from "../../components/Layout21/Layout21"
 
 const Spotify = () => {
@@ -13,16 +14,11 @@ const Spotify = () => {
           <Grid container item md={9} spacing={2}>
             <Layout21
               fCard={<ProfileCard />}
-              sCard={<SimpleAreaChart />}
-              fSize={4}
-              sSize={8}
+              sCard={<PieChartLayout />}
+              fSize={3}
+              sSize={9}
             />
-            <Layout21
-              fCard={<ProfileCard />}
-              sCard={<SimpleAreaChart />}
-              fSize={4}
-              sSize={8}
-            />
+            
           </Grid>
 
           <Grid item md={3}>

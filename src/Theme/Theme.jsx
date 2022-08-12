@@ -48,7 +48,7 @@ const theme = createTheme({
             style: {
               fontWeight: "bold",
               border: `4px solid red`,
-              color: "orange"
+              color: "orange",
             }
           }
         ]      
